@@ -94,7 +94,7 @@ Set-ExecutionPolicy Bypass -Scope Process
 # Current script's version, the same as the version at the top in the script info section
 [datetime]$CurrentVersion = '2023.9.12'
 # Minimum OS build number required for the hardening measures used in this script
-[decimal]$Requiredbuild = '22621.2134'
+[decimal]$Requiredbuild = '22621.1928'
 
 # Determining if PowerShell is core to use modern styling
 [bool]$global:IsCore = $false
